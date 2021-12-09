@@ -39,3 +39,13 @@
   transition-duration: 1s;
   transform: scale(1.08)
 }
+
+.App{
+  /* background: linear-gradient(45deg, #e66465, #9198e5); */
+  animation: rotate 3.5s linear infinite alternate;
+}
+
+@keyframes rotate{
+  from {background-color: #360860;}
+  to {background-color: #782354;}
+}
